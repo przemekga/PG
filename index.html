@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemek Gajdas Front-end Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/about.controller.js"></script>
+    <script src="js/main.controller.js"></script>
+    <script src="js/portfolio.controller.js"></script>
+    <script src="js/contact.controller.js"></script>
+    <script src="js/app.route.js"></script>
+    <script src="js/dropdown.js"></script>
+
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#/">
+                    <?xml version="1.0" standalone="no"?>
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+                    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                         width="52.000000pt" height="52.000000pt" viewBox="0 0 52.000000 52.000000"
+                         preserveAspectRatio="xMidYMid meet">
+                        <metadata>
+                            Created by potrace 1.10, written by Peter Selinger 2001-2011
+                        </metadata>
+                        <g transform="translate(0.000000,52.000000) scale(0.100000,-0.100000)"
+                           fill="#504f7d" stroke="none">
+                            <path class="logo" d="M176 504 c-68 -21 -139 -94 -160 -165 -20 -65 -20 -92 -1 -155 44
+                            -147 218 -219 360 -149 88 43 135 122 135 228 0 84 -35 156 -99 202 -74 54
+                            -145 66 -235 39z m79 -138 c43 -31 -31 -116 -101 -116 -28 0 -36 -6 -55 -40
+                            -14 -24 -30 -40 -41 -40 -10 0 -18 3 -18 6 0 3 25 44 55 90 30 46 53 84 50 84
+                            -20 0 -52 -25 -48 -37 4 -11 0 -14 -18 -11 -36 5 -30 37 11 59 42 23 137 26
+                            165 5z m205 -4 c0 -11 -9 -27 -20 -37 -11 -10 -20 -23 -20 -30 0 -6 -11 -22
+                            -25 -35 -24 -23 -35 -47 -15 -35 6 3 10 2 10 -2 0 -5 -32 -37 -71 -71 -51 -45
+                            -75 -60 -82 -53 -8 8 2 25 33 59 25 26 38 41 30 34 -19 -16 -55 -15 -69 2 -26
+                            31 47 133 122 170 18 8 49 16 70 16 29 0 37 -4 37 -18z"/>
+                            <path class="logo" d="M168 318 c-25 -34 -26 -38 -9 -38 23 0 71 37 71 55 0 7 -8 15 -18 17
+                            -11 3 -26 -8 -44 -34z"/>
+                            <path class="logo" d="M369 340 c-41 -22 -109 -93 -109 -115 0 -20 9 -19 45 4 57 37 78 58
+                            66 65 -15 10 -14 26 3 26 8 0 24 9 37 20 31 25 7 26 -42 0z"/>
+                        </g>
+                    </svg>
+                    <span>
+                        <h1>Przemek Gajdas</h1>
+                        <h2>Front-end Developer</h2>
+                    </span>
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about" class="xlink">About me</a></li>
+                    <li><a href="#portfolio" class="xlink">Portfolio</a></li>
+                    <!--<li><a href="#testimonials">Testimonials</a></li>-->
+                    <li><a href="#hire" class="xlink">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+<section class="page {{ pageClass }}" ng-view>
+
+</section>
+<!--<footer class="footer">-->
+    <!--<div class="container">-->
+        <!--<div class="col-xs-12">-->
+            <!--<p class="text-muted">© 2016 Przemek Gajdas</p>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</footer>-->
+</body>
+</html>

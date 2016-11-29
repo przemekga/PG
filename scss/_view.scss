@@ -1,0 +1,39 @@
+ html {
+   height: 100vh;
+ }
+ body {
+   height: auto;
+   background-color: rgba(240, 240, 240, 0.94);
+   //padding-top: 300px;
+   background-image: url(../images/wallhaven-433673.jpg);
+   background-repeat:no-repeat;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+   background-position:center;
+
+   .page {
+     padding-top: 20vh;
+     bottom:0;
+     position:absolute;
+     top:0;
+     width:100%;
+   }
+
+    @media screen and (max-width: 768px){
+        .page {
+             padding-top: 15vh;
+             bottom:0;
+             position:absolute;
+             top:0;
+             width:100%;
+           }
+    }
+    @media screen and (min-width: 768px){
+            .collapse {
+
+            }
+        }
+ }
+
